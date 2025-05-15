@@ -39,7 +39,6 @@ Obsahuje HDP, GINI koeficient a populaci evropských států v období, které o
 
 * **Záznamy o potravinách do roku 2014** obsahují pouze **26 druhů**, zatímco **od roku 2015** se eviduje **27 druhů**. Po roce 2015 byla do dat přidána položka *jakostní víno bílé*. Ve starších letech tato potravina chybí.
 * **Mnoho `NULL` hodnot** u mezd a zaměstnanců je způsobeno strukturou tabulky – každý řádek obsahuje buď mzdovou nebo zaměstnaneckou informaci.
-* **Žádné hodnoty nejsou negativní nebo nulové**, což znamená dobrou datovou kvalitu.
 * **V sekundárních tabulkách chybí vazby** – tabulky `economies` a `countries` nejsou navzájem jednoznačně propojené.
 * V tabulce `economies` je sloupec `mortaliy_under5` s pravopisnou chybou v názvu (`mortality`).
 * V tabulce `czechia_payroll_value_type` jsou **přehozené kódy**, které určují v tabulce `czechia_payroll` přiřazení jednotek k hodnotám – výsledkem je, že **lidská síla je evidována v Kč a mzdy v tisících zaměstnanců**, což je zjevná chyba.
